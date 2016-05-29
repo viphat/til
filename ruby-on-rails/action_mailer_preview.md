@@ -1,3 +1,4 @@
+
 Xuất phát từ nhu cầu của mình là phải ngồi mần một Email Template cho tác vụ gửi Newsletter của dự án đang làm nên phải thay đổi và kiểm tra thường xuyên. Vì vậy, không thể cứ mỗi lần thay đổi một chút là lại phải gửi Email đi, vừa mất thời gian (Gửi Mail qua **SMTP Server** xong lại phải mở hộp mail để check, và cũng không chắc là mail đến nhanh như mong đợi không) và tốn kém chi phí (nếu bạn sử dụng các dịch vụ Email Delivery như **Sendgrid** và **Mailchimp**...). Thử Google trên mạng thì có 2 giải pháp là dùng **Mail Catcher** để bắt hết tất cả Mail gửi đi trong môi trường Development và nhét về lại một chỗ - http://mailcatcher.me/. Cách thứ hai, đơn giản hơn nữa là Rails có hỗ trợ **Action Mailer Previews** giúp bạn nhanh chóng và dễ dàng để xem trước Email của bạn bằng trình duyệt Web.
 
 Ở đây, tôi giả định bạn đã có một class UserMailer với method new_user():
