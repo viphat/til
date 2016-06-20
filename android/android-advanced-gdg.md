@@ -76,15 +76,53 @@ How about Postgres? (http://blog.nordeus.com/dev-ops/postgresql-locking-revealed
 
 Test trên Device thật vì trên Emulator không có Google Play Services.
 
-### Project Folder Structure
+> Nếu gặp lỗi Ubuntu không nhận diện được Device thật trong Android Studio, ta có thể thử khởi động lại Server adb
+
+```
+sudo apt-get install android-tools-adb
+sudo adb kill-server
+sudo adb start-server
+
+```
+
+### Performance
+
+### Caching
+
+LRU Cache
+
+### Memory Leak
+
+Eclipse Memory Analyzer
+
+LeakCanary
+
+Để phát hiện Memory Leak thì ngoài các công cụ hỗ trợ, cần nhất là kinh nghiệm và cảm giác, đặc biệt là các kiến thức về kỹ thuật lập trình, những thứ đằng sau hệ thống để truy ra nguồn gốc và khắc phục Memory Leak.
+
+GPU
+
+CPU
+
+- [**Android Performance Patterns**](https://www.youtube.com/watch?v=qk5F6Bxqhr4&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
+
+### Android Architecture
 
 Pattern: **MVP**, **MVVM**
+
+Clean Architecture
+
+- [Android MVVM](https://labs.ribot.co.uk/approaching-android-with-mvvm-8ceec02d5442#.9w7qjas24)
+
+- [Android Project Structure Alternative Way](https://medium.com/google-developer-experts/android-project-structure-alternative-way-29ce766682f0#.w00pr0toa)
+
 
 ### Final Projects
 
 Apply FriendlyChat MVP or MVVM > Build APK File.
 
+### References
+
 ### Mentors
 
 Hùng - http://henrytao.me/
-Huỳnh Quang Thảo - http://github.com/hqc - huynhquangthao@gmail.com
+Huỳnh Quang Thảo - http://github.com/hqc - https://medium.com/@huynhquangthao -  huynhquangthao@gmail.com
