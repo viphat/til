@@ -8,3 +8,5 @@ DRY - Don't repeat yourself là một trong những nguyên tắc cơ bản nh�
 - http://deviq.com/don-t-repeat-yourself/
 
 - http://aaronlasseigne.com/2016/06/24/clear-intentions-do-you-speak-3/
+
+- http://railshurts.com/principles/
