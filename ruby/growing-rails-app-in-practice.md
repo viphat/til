@@ -3,9 +3,7 @@
 - Giảm tầm quan trọng của Controller bằng cách tách nhỏ controllers, chỉ giữ lại các method CRUD (Standard Controller Design):
 
 ### Normalizing user interactions
-How to come up with a default controller design when your application has many different kinds of
-user interactions? The pattern we use is to reduce every user interaction to a Rails CRUD resource. We employ this mapping even if the user interface is not necessarily a typical CRUD interface at
-first glance. Even interactions that do not look like plain old CRUD resources can be modeled as such. A screen to cancel a subscription can be thought of as destroying a subscription or creating a new cancellation. A screen to upload multiple images at once can be seen as creating an image batch (even if there is no ImageBatch model). By normalizing every user interaction to a CRUD interaction, we can design a beautiful controller layout and reuse it again and again with little changes.
+How to come up with a default controller design when your application has many different kinds of user interactions? The pattern we use is to reduce every user interaction to a Rails CRUD resource. We employ this mapping even if the user interface is not necessarily a typical CRUD interface at first glance. Even interactions that do not look like plain old CRUD resources can be modeled as such. A screen to cancel a subscription can be thought of as destroying a subscription or creating a new cancellation. A screen to upload multiple images at once can be seen as creating an image batch (even if there is no ImageBatch model). By normalizing every user interaction to a CRUD interaction, we can design a beautiful controller layout and reuse it again and again with little changes.
 
 ### We believe that controllers deserve better:
 
@@ -21,8 +19,7 @@ first glance. Even interactions that do not look like plain old CRUD resources c
 
 ### Hiểu về ActiveRecord
 
-> Never rely on other code to use the custom model methods that you provide. To enforce
-an API in ActiveRecord, you must express it in validations and callbacks.
+> Never rely on other code to use the custom model methods that you provide. To enforce an API in ActiveRecord, you must express it in validations and callbacks.
 
 Tận dụng Validations và Callbacks
 
