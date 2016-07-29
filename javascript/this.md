@@ -1,1 +1,0 @@
-[Javascript - This Keyword](https://www.sitepoint.com/inner-workings-javascripts-this-keyword)
